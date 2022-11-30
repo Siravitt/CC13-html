@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Nunito Sans";
+}
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+header > * {
+    width: 50%;
+}
+header > * > ul {
+    list-style: none;
+}
+header > * > ul > li > h2 > a {
+    color: black;
+}
+header > * > ul > li > a {
+    color: black;
+}
+header > .hright {
+    display: flex;
+}
+header > .hright > * {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+header > .hright > ul > li {
+    margin-left: 2em;
+}
+header > .hleft {
+    display: flex;
+}
+header > .hleft > * {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: 85vh;
+    width: 100vw;
+}
+main > .maincontent {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_980,h_611,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg), url(https://static.wixstatic.com/media/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg/v1/fill/w_1899,h_1074,al_c,q_90,enc_auto/84770f_0cf5b6c1550a4b8c92f92f1064cc68de~mv2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main > .maincontent > .content > h3 {
+    padding-top: 3em;
+}
+.blackbutton {
+    display: block;
+    padding: 0.5em;
+    width: 8em;
+    height: 2.5em;
+    background-color: black;
+    color: white;
+}
+.blackbutton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: background-color 0.5s ease-in-out;
+}
+.about {
+    display: flex;
+}
